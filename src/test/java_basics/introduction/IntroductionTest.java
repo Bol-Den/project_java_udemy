@@ -1,4 +1,4 @@
-package java_basics.introduction_01;
+package java_basics.introduction;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,4 @@
-package java_basics.introduction_01;
+package java_basics.introduction;
 
 class Introduction {
 
