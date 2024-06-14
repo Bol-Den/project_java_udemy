@@ -1,6 +1,6 @@
 package java_basics.car_dealership;
 
-import java.util.Objects;
+//import java.util.Objects;
 
 class Vehicle {
 
