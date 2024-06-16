@@ -33,7 +33,7 @@ class ReadFile {
                 line = bufferedReader.readLine();
             }
         } catch (FileNotFoundException e) {
-            System.out.println("File not found");;
+            System.out.println("File not found");
         } catch (IOException e) {
             System.out.println("Problem reading file: " + file.getName());
         } finally {   //////finally is running also if try catch block without exception
@@ -51,7 +51,7 @@ class ReadFile {
 
         //// resources will be closed automatically
         try (FileReader fileReader = new FileReader(file);
-             BufferedReader bufferedReader = new BufferedReader(fileReader);) {
+             BufferedReader bufferedReader = new BufferedReader(fileReader)) {
 
             String line = bufferedReader.readLine();
             while (line != null) {
@@ -59,7 +59,7 @@ class ReadFile {
                 line = bufferedReader.readLine();
             }
         } catch (FileNotFoundException e) {
-            System.out.println("File not found");;
+            System.out.println("File not found");
         } catch (IOException e) {
             System.out.println("Problem reading file: " + file.getName());
         }
