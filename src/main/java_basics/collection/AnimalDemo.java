@@ -1,7 +1,6 @@
 package java_basics.collection;
 
 import java.util.HashSet;
-import java.util.Set;
 
 class AnimalDemo {
 
