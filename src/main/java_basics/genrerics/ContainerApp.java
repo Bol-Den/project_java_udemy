@@ -1,8 +1,6 @@
 package java_basics.genrerics;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 class ContainerApp {
 
@@ -24,16 +22,28 @@ class ContainerApp {
         mySet2.add("monitor");
 
         Set<String> resultSet = union(mySet1, mySet2);
-        System.out.println( resultSet);
+        System.out.println(resultSet);
 
         Iterator<String> itr = resultSet.iterator();
-        while (itr.hasNext()){
+        while (itr.hasNext()) {
             // not working if use raw version of iterator i.e Iterator without type
             String var = itr.next();
 //            System.out.println(itr.next());
             System.out.println(var);
-
         }
+
+        List<Integer> myList1 = new ArrayList<>();
+        myList1.add(10);
+        myList1.add(15);
+        myList1.add(11);
+
+        List<Integer> myList2 = new ArrayList<>();
+        myList2.add(3);
+        myList2.add(6);
+        myList2.add(9);
+
+        List<Integer> addtionResult = addition(myList1, myList2);
+        System.out.println(addtionResult);
 
     }
 
@@ -43,5 +53,13 @@ class ContainerApp {
         result.addAll(set2);
         return result;
     }
+
+    //// generic method second
+    public static <E> List<E> addition(List<E> val1, List<E> val2){
+        List<E> result = new ArrayList<>(val1);
+        result.addAll(val2);
+        return result;
+    }
+
 
 }
