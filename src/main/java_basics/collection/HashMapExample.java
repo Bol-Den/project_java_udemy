@@ -7,7 +7,7 @@ class HashMapExample {
 
     public static void main(String[] args) {
 
-        HashMap<String, String> dictionary = new HashMap<String, String>();
+        HashMap<String, String> dictionary = new HashMap<>();
 
         dictionary.put("Brave", "ready to face danger");
         dictionary.put("Brilliant", "exceptionally clever");
