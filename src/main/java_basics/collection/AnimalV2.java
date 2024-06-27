@@ -1,7 +1,5 @@
 package java_basics.collection;
 
-import java.util.Objects;
-
 class AnimalV2 implements Comparable<AnimalV2>{
 
    private String name;
