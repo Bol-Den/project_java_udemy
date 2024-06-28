@@ -1,4 +1,4 @@
-package java_basics.genrerics;
+package java_basics.generics;
 
 import java.util.*;
 

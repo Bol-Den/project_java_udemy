@@ -4,7 +4,7 @@ abstract class Animal {
 
     private String animal;
     private String color;
-    private int age;
+    protected int age;
 
     Animal(String name, String color, int age){
         this.animal = name;

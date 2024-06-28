@@ -7,6 +7,8 @@ class AnimalApp {
         Bird bird = new Bird("Parrot", "red", 55, "intelligent");
 
         bird.increaseAgeBy5();
+        bird.increaseAgeBy5();
+
         System.out.println(bird.getAge());
 
         bird.eat();

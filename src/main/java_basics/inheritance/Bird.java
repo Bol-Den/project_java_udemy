@@ -14,7 +14,8 @@ class Bird extends Animal {
     }
 
     void increaseAgeBy5() {
-        int newAge = getAge() + 5;
+        int newAge = age + 5;
+//        age = newAge;
         setAge(newAge);
     }
 
