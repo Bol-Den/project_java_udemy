@@ -56,7 +56,7 @@ class collectionDemo {
 
     }
 
-    public static void getList(List list){
+    public static void  getList(List list){
         for (int i=0; i<list.size(); i++){
             System.out.println(list.get(i));
         }
