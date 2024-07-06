@@ -1,5 +1,5 @@
 package java_basics.lambdas;
 
-interface LambdaFunctionalInterface {
-    void someAction();
+interface LambdaFunctionalInterface extends Walkable{
+//    void someAction();
 }
